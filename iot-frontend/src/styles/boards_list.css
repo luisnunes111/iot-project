@@ -1,0 +1,76 @@
+.board-container{
+    margin: 20px 5%;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    -webkit-box-align: center;
+
+    background: #2D4377 none repeat scroll 0% 0%;
+    color: #D1D1FF;
+    height: 250px;
+    box-shadow: 0 3px 0 0 #141b38, 0 4px 10px 0 rgba(33,7,77,.5);
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    border-radius: .5rem;
+
+}
+.board-container b{
+    color: #1A2644;
+}
+
+    .board-header{
+        color: #3FA8FF;
+        font-weight: 400;
+        font-size: 2em;
+        padding-left: 20px;
+        padding-top: 5px;
+        font-family: 'Exo', sans-serif;
+    }
+    
+    .board-info{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .board-info > .board-description{
+            padding-left: 20px;
+            flex: 1;
+        }
+        .board-info > .board-image{
+            padding-right: 10px;
+        }
+
+    .board-read{
+
+    }
+
+    .board-read-group{
+        display: flex;
+        -webkit-box-orient: horizontal;
+        flex-direction: row;
+        -webkit-box-align: center;
+    }
+
+    .board-read-group > div{
+        text-align: center;
+            padding: 0 10px;
+            height: 4rem;
+            line-height: 4rem;
+            width: 33.3%;
+            display: flex;
+    }
+    .board-read-header{
+        padding: 0 20px;
+    }
+    .board-read-group > div > i{
+        font-size: 1.5em;
+        padding-right: 5px;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .board-read-group{
+        background-color: #1A2644;
+        border-radius: .5rem;
+        margin: 10px 12px;
+    }

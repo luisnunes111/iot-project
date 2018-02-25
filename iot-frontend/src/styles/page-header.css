@@ -1,0 +1,72 @@
+.dashboard-route{
+    background-color: #d5d9e8;
+    color: #3fa8ff;
+    height: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    line-height: 4rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 3.5rem;
+    font-size: 1em;
+}
+
+    .dashboard-route > span{
+        color: #263aef;
+        padding: 0 0.5rem;
+    }
+
+    .dashboard-route > b{
+        color: #1A2644;
+    }
+    
+.dashboard-header{
+    background-color: #D5D9E8;
+    min-height: 5.5rem;
+    margin-left: .5rem;
+    padding-left: 3.5rem;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: row;
+}
+
+    .dashboard-title-content{
+        flex: 1;
+    }
+    .dashboard-title{
+        color: #1A2644;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 1.7em;
+        
+    }
+    .dashboard-sub-title{
+        font-size: 1em;
+    }
+       
+        .dashboard-sub-title > span{
+            color: #3FA8FF;
+        }
+        
+
+    .dashboard-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 2rem;
+    }
+
+        .dashboard-buttons > button{
+            border: 1px solid #1A2644;
+            color: #1A2644;
+            /* color: #7ff23c; */
+            font-family: 'Open Sans', sans-serif;
+            padding: 0.7rem 1.2rem;
+            background-color: transparent;
+            border-radius: 0.5rem;
+        }
+
+        .dashboard-buttons > button:hover{
+            color: #D5D9E8;
+            background-color: #1A2644;
+        }

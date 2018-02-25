@@ -1,0 +1,108 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Exo', sans-serif; */
+
+
+.sidebar {
+    background-color: #2D4377;
+    height:100vh;
+    width: 24rem;
+
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-header{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 1.3rem;
+    font-family: 'Exo', sans-serif;
+    color:#b3bfe5;
+    background-color: #4f6191;
+}
+.sidebar-user-info{
+    background-color: #1a2644;
+    min-height: 130px;
+    height: auto;
+}
+
+    .user-image{
+        width: 100%;
+        height: 100px;
+        position: relative;
+    }
+    .user-image > img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 7px;
+        border: 4px solid #162756;
+        height: 80px;
+        width: 80px;
+    }
+    .user-name{
+        width: 100%;
+        color: #b3bfe5;
+        text-align: center;
+        font-size: 1.0em;
+        font-weight: 700;
+        padding: 0.6rem;
+        font-family: 'Exo', sans-serif;
+    }
+
+.sidebar-menu{
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+}
+
+.sidebar-list{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #B3BFE5;
+    padding: 1.25rem; 
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+}
+.sidebar-item{
+    position: relative;
+    width: 100%;
+    /* border-bottom: 1px solid transparent;   */
+}    
+
+    .sidebar-item > a{
+        padding: .45rem 1rem .45rem .75rem;
+        text-decoration: none; 
+        display: flex;
+        color: inherit;
+        align-items: center;
+    }
+
+        .item-icon {
+
+        }
+        .item-title{
+            font-weight: 700;
+        }
+
+.sidebar-logout{
+    position: relative;
+    width: 100%;
+    background-color: #1a2644;
+    min-height: 40px;
+}  
+
+    .sidebar-logout > div{
+        width: 100%;
+        height: 100%;
+        align-self: flex-end;
+        font-family: 'Exo', sans-serif;
+        text-align: center;
+        padding: 0.6rem;
+        font-size: 1.1em;
+        line-height: 1.1em;
+        font-weight: 500;
+        color: #b3bfe5;
+        display: inline-block;        
+    }  

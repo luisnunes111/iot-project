@@ -1,0 +1,72 @@
+.form-container{
+    margin: 3.5em auto;
+    width: 800px;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    background: #2D4377 none repeat scroll 0% 0%;
+    color: #D1D1FF;
+    box-shadow: 0 3px 0 0 #141b38, 0 4px 10px 0 rgba(33,7,77,.5);
+    
+    border-radius: .5rem;
+    min-height: 400px;
+    padding-top: 30px;
+}
+.form-header{
+    color: #1A2644;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    font-size: 1.7em;
+    font-size: 2em;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+
+.button-group-form{
+    margin:15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding-left: 45px;
+}
+
+.button-group-form > * {
+    min-width: 200px;
+    
+}
+    .button-group-form > input {
+        border: 1px solid #1A2644;
+        color: #1A2644;
+        /* color: #7ff23c; */
+        font-family: 'Open Sans', sans-serif;
+        padding: 0.5rem 1rem;
+     
+        border-radius: 0.5rem;
+        font-size: 1.1em;
+        font-weight: 500;
+        
+    }
+
+.button-submit-form{
+    
+    width: 90%;
+    margin:15px 20px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+}
+
+.button-submit-form > button{
+    width: 200px;
+    padding: 8px 20px;
+    margin-right: 20px;
+    align-self: flex-end;
+    color: #1A2644; 
+    border-radius: 0.5rem;
+}
+
+.button-submit-form > button:hover{
+    background-color: #B3BFE5; 
+    border-radius: 0.5rem;
+}
